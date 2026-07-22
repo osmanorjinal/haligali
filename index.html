@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hali Gali</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="menu">
+
+<h1>🍎 HALI GALI 🍌</h1>
+
+<div class="logoBell">🔔</div>
+
+<p>Zorluk</p>
+
+<select id="difficulty">
+<option value="easy">Kolay</option>
+<option value="medium" selected>Orta</option>
+<option value="hard">Zor</option>
+</select>
+
+<br><br>
+
+<button id="startBtn">
+OYUNA BAŞLA
+</button>
+
+</div>
+
+<div id="game" style="display:none;">
+
+<div id="topBar">
+
+<div>
+👤 Sen
+<br>
+Kart:
+<span id="playerCards">28</span>
+</div>
+
+<div id="bell">
+🔔
+</div>
+
+<div>
+💻 Bilgisayar
+<br>
+Kart:
+<span id="cpuCards">28</span>
+</div>
+
+</div>
+
+<div id="table">
+
+<div class="pile" id="cpuPile">
+
+<div class="card back"></div>
+
+<div class="playedCard" id="cpuPlayed">
+?
+</div>
+
+</div>
+
+<div class="pile" id="playerPile">
+
+<div class="playedCard" id="playerPlayed">
+?
+</div>
+
+<div class="card back"></div>
+
+</div>
+
+</div>
+
+<div id="message">
+Oyuna başlamak için kart aç.
+</div>
+
+<div id="controls">
+
+<button id="flipBtn">
+Kart Aç
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
